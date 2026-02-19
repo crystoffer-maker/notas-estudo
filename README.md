@@ -7,5 +7,8 @@ para utilizar  git na minha maquina eu preciso configurar determinado comando ,s
 
 ```bash
 git config --gloal
-````
+```
 
+## ssh - como configurar a maquina para github
+
+## como criar um repertorio 
