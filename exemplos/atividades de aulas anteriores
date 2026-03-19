@@ -1,0 +1,132 @@
+function exercicio2() {
+    alert("teste exercicio 2")
+    const valorHor = Number(prompt("Digite alor da hora"))
+    const horaTrabalahda = Number(prompt("digite as horas trabalahdas"))
+
+    const resultado = valorHor * horaTrabalahda
+
+    alert("seu salario é" + resultado)
+}
+const ButtonExercicio2 = document.getElementById("exercicio2")
+ButtonExercicio2.addEventListener('click', () => { exercicio2() })
+
+function exercicio3() {
+    const pessoa1 = Number(prompt("peso pessoa 1"))
+    const pessoa2 = Number(prompt("peso pessoa 2"))
+    const pessoa3 = Number(prompt("peso pessoa 3"))
+    const pessoa4 = Number(prompt("peso pessoa 4"))
+    const pessoa5 = Number(prompt("peso pessoa 5"))
+    alert((pessoa1 + pessoa2 + pessoa3 + pessoa4 + pessoa5) / 5)
+}
+const ButtonExercicio3 = document.getElementById("exercicio3")
+ButtonExercicio3.addEventListener('click', () => { exercicio3() })
+
+
+function exercicio4() {
+    const celsios = Number(prompt("digite valor celcios"))
+    alert((9 * celsios + 160) / 5) = Number
+}
+const ButtonExercicio4 = document.getElementById("exercicio4")
+ButtonExercicio4.addEventListener('click', () => { exercicio4() })
+
+function exercicio5() {
+    const Kilometro = Number(prompt("ponha a a kilometragem"))
+    alert((Kilometro * 1.60093))
+}
+const ButtonExercicio5 = document.getElementById("exercicio5")
+ButtonExercicio5.addEventListener('click', () => { exercicio5() })
+
+function exercicio6() {
+    const segundos = Number(prompt("Ponha a duraçao em segundos"))
+
+    const resultadoSeg = 1 / segundos
+    alert(resultadoSeg)
+    const resultadoMin = segundos / 60
+    alert(resultadoMin)
+    const resultadoHr = resultadoMin / 60
+    alert(resultadoHr)
+}
+const ButtonExercicio6 = document.getElementById("exercicio6")
+ButtonExercicio6.addEventListener('click', () => { exercicio6() })
+
+function exercicio7() {
+    const km = Number(prompt("digite uma distancia em km"))
+    const resultado1 = (km * 1000)
+    alert(resultado1)
+    const resultado2 = (km * 100000)
+    alert(resultado2)
+}
+const ButtonExercicio7 = document.getElementById("exercicio7")
+ButtonExercicio7.addEventListener('click', () => { exercicio7() })
+
+function exercicio8() {
+
+
+    const numero = Number(prompt("digite um numero"))
+    alert(numero * 0)
+    alert(numero * 1)
+    alert(numero * 2)
+    alert(numero * 3)
+    alert(numero * 4)
+    alert(numero * 5)
+    alert(numero * 6)
+    alert(numero * 7)
+    alert(numero * 8)
+    alert(numero * 9)
+    alert(numero * 10)
+}
+const buttonExercicio8 = document.getElementById("exercicio8")
+buttonExercicio8.addEventListener('click', () => { exercicio8() })
+
+function exercicio9() {
+    const nota1 = Number(prompt("digite a primeira nota"))
+    const nota2 = Number(prompt("digite a segunda nota"))
+    const nota3 = Number(prompt("digite a terceira nota"))
+
+    const media = (nota1 + nota2 + nota3) / 3
+    console.log(media)
+    // ele esta no f12 na aba console 
+    if (media < 5) {
+        alert("reprovado")
+    } else if (media >= 5 && media < 7) {
+        alert("recuperaçao")
+    } else if (media <= 7) {
+        alert("aprovado")
+    }
+}
+const buttonExercicio9 = document.getElementById("exercicio9")
+buttonExercicio9.addEventListener('click', () => { exercicio9() })
+
+function exercicio10() {
+    const sexo = prompt("digite seu sexo H-homen M-Mulher")
+    const altura = Number(prompt("digite sua altura exemplo 1,70"))
+
+    if (sexo == "H") {
+        const resulatado = (72.7 * altura) - 58
+        alert("seu peso ideal é " + resulatado)
+    }
+    else if (sexo == "M") {
+        const resulatado = (62.1 * altura) - 44.7
+        alert("seu peso ideal é " + resulatado)
+    }
+
+}
+const buttonExercicio10 = document.getElementById("exercicio10")
+buttonExercicio10.addEventListener('click', () => { exercicio10() })
+
+function exercicio11() {
+const numero = Number(prompt("digite um numero"))
+const outronumero = Number(prompt("digite um outro numero"))
+const funcao = prompt("digite a funçao que deseja realizar")
+
+if (funcao == "soma"){
+    const resultado = numero + outronumero
+    alert ("o resultado da soma é:" + resultado)
+}
+else if (funcao == "subtraçao"){
+    const resultado = numero - outronumero
+    alert ("o resultado da soma é:" + resultado)
+}
+}
+const buttonExercicio11 = document.getElementById("exercicio11")
+buttonExercicio11.addEventListener('click', () => { exercicio11() })
